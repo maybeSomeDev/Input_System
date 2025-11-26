@@ -31,7 +31,7 @@ Then in `m.actions`, create an action with the same name, and set the input meth
 }
 ```
 
-2- To get the action you created and detect when it's used:
+2- To get the action you created and detect when it's used
 
 ```lua
 -- required the module
