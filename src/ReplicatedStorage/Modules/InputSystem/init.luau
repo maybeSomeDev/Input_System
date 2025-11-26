@@ -31,7 +31,6 @@ local useInput = {
 	["key"] = function(name: string,key: Enum.KeyCode)
 		if not actionsSignals[name] then return end
 		if not key or typeof(key) ~= "EnumItem" then return end
-		local t = tostring(key.EnumType) ~= "KeyCode"
 		if tostring(key.EnumType) ~= "KeyCode" then return end
 		local _type = "key"
 		
